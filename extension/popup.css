@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; width: 300px; background: #100b1d; color: #f6f1ff; font: 14px/1.45 system-ui, sans-serif; }
+main { padding: 18px; }
+.brand { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.stone { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 12px; background: linear-gradient(135deg,#7c3aed,#d946ef); font-size: 24px; box-shadow: 0 0 22px #a855f755; }
+h1 { font-size: 16px; margin: 0; letter-spacing: 1px; }
+.brand p { margin: 2px 0 0; color: #bdb2d2; font-size: 12px; }
+.status { padding: 10px 11px; background: #211733; border: 1px solid #3d2c55; border-radius: 9px; margin-bottom: 12px; color: #ddd0f5; }
+button { width: 100%; border: 0; border-radius: 9px; padding: 11px; margin: 5px 0; font-weight: 700; cursor: pointer; }
+.primary { background: #a855f7; color: white; }
+.secondary { background: #2b2039; color: #e9d5ff; border: 1px solid #4b3862; }
+.hint { color: #c8bdd7; font-size: 12px; margin: 13px 0 0; }
+.error { color: #fca5a5; font-size: 12px; overflow-wrap: anywhere; }

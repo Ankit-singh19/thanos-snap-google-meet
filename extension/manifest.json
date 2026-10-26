@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Thanos Snap for Google Meet",
+  "version": "0.1.0",
+  "description": "Control a local Thanos-style purple dust camera effect for Google Meet.",
+  "action": {
+    "default_title": "Thanos Snap",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://127.0.0.1:8765/*"
+  ]
+}
